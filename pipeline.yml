@@ -10,7 +10,7 @@ tasks:
   - integration:
       cmd: mvn verify
   - deploy: 
-      cmd: scp deploy.sh scripting.zip ec2-user@52.86.86.160:/home/ec2-user; ssh ec2-user@52.86.86.160 "sudo sh /home/ec2-user/deploy.sh"
+      cmd: scp deploy.sh scripting.zip ec2-user@18.210.13.86:/home/ec2-user; ssh ec2-user@18.210.13.86 "sudo sh /home/ec2-user/deploy.sh"
 
 
 #Pipeline execution order way to run my steps

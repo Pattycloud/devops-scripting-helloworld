@@ -21,7 +21,7 @@ echo -e "deploying web application\n"
 cp /home/ec2-user/target/java-hello-world.war /opt/tomcat/webapps/
 
 echo -e "start tomcat service"
-sh /opt/tomcat/bin/startup.sh
+sudo sh /opt/tomcat/bin/startup.sh
 
 echo -e "Cleanup workspace"
 rm -rf target

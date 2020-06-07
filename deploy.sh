@@ -16,7 +16,7 @@ sh /opt/tomcat/bin/shutdown.sh
 
 echo -e "untar webapps\n"
 unzip scripting.zip
-
+# I am deploying a "Hello World" file
 echo -e "deploying web application\n"
 cp /home/ec2-user/target/java-hello-world.war /opt/tomcat/webapps/
 
